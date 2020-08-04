@@ -10,10 +10,10 @@ export default new Vuex.Store({
 		writing: false,
 		urlBot:
 			'https://account.snatchbot.me/channels/api/api/id124889/appchatbot_angela/apschatbot_angela?user_id=chatbot_angela',
-		imageAgent: "require('@/assets/images/img-angela.jpeg')",
-		imageUser: "require('@/assets/images/img-user.jpg')",
+		imageAgent: "./assets/images/img-angela.jpeg')",
+		imageUser: "./assets/images/img-user.jpg')",
 		urlServiceMailer: 'https://us-central1-mailer-bbdb3.cloudfunctions.net/mailer',
-		emailTo: 'direcciontecnologia@alianzadiagnostica.com', //'javiarco85@gmail.com',
+		emailTo: 'direcciontecnologia@alianzadiagnostica.com',
 	},
 	mutations: {
 		// Agrega mensaje del usuario al historial del chat
