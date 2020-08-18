@@ -1,0 +1,10 @@
+{
+	"urlServiceMailer": "https://us-central1-mailer-bbdb3.cloudfunctions.net/mailer",
+	"emailNotificationCitas": "callcenter3@alianzadiagnostica.com,direcciontecnologia@alianzadiagnostica.com",
+	"emailNotificationMuestras": "domicilios@alianzadiagnostica.com,direcciontecnologia@alianzadiagnostica.com",
+	"emailNotificationResultados": "practicanteprincipal@alianzadiagnostica.com,direcciontecnologia@alianzadiagnostica.com",
+	"urlApiBot": "https://account.snatchbot.me/channels/api/api/id127104/appchatbot_angela/apszsjhdgbcv?user_id=chatbot_angela",
+	"nameBot": "Angela",
+	"imgAgent": "/images/img-angela.jpeg",
+	"imgUser": "/images/img-user.jpg"
+}

@@ -1,0 +1,172 @@
+[
+	{
+		"nombre": "PRINCIPAL",
+		"direccion": "Calle 45 # 29-55",
+		"servicios": [
+			{
+				"nombre": "IMAGENOLOGIA",
+				"horarios": ["DE LUNES A VIERNES DE 6 A 6"]
+			},
+			{
+				"nombre": "ENTREGA DE RESULTADOS",
+				"horarios": ["DE LUNES A VIERNES DE 7:30 AM -- 12:30 PM Y DE 1:30 PM A 3 PM", "LOS SABADOS DE 7:30 AM -- 1 PM"]
+			},
+			{
+				"nombre": "LABORATORIO",
+				"horarios": ["DE LUNES A VIERNES 6 AM -- 4:30 PM", "SABADOS DE 6 AM -- 10 AM"]
+			}
+		]
+	},
+	{
+		"nombre": "CEI",
+		"direccion": "Calle 54 # 34-20",
+		"servicios": [
+			{
+				"nombre": "ODONTOLOGIA",
+				"horarios": ["DE LUNES A VIERNES DE 6 AM -- 8 PM"]
+			},
+			{
+				"nombre": "RAYOS X",
+				"horarios": ["DE LUNES A VIERNES DE 6 AM -- 6 PM"]
+			},
+			{
+				"nombre": "ECOGRAFIAS",
+				"horarios": ["DE LUNES A VIERNES DE 6 AM -- 5 PM"]
+			},
+			{
+				"nombre": "TOMOGRAFIAS",
+				"horarios": ["DE LUNES A VIERNES DE 7:30 AM -- 5 PM", "SABADOS DE 7 AM -- 12 PM"]
+			},
+			{
+				"nombre": "ENTREGA DE RESULTADOS",
+				"horarios": ["DE LUNES A VIERNES DE 7 AM -- 4 PM", "SABADOS DE 7 AM -- 12 PM"]
+			}
+		]
+	},
+	{
+		"nombre": "CAPITA SOTOMAYOR",
+		"direccion": "Calle 47 # 29-56",
+		"servicios": [
+			{
+				"nombre": "LABORATORIO",
+				"horarios": ["DE LUNES A SABADO 6 AM -- 9 AM"]
+			},
+			{
+				"nombre": "MEDICINA GENERAL",
+				"horarios": ["DE LUNES A SABADOS 6 AM -- 8 PM"]
+			}
+		]
+	},
+	{
+		"nombre": "CAPITA CAMPESTRE",
+		"direccion": "Calle 52A # 31-32",
+		"servicios": [
+			{
+				"nombre": "MEDICINA GENERAL",
+				"horarios": [
+					"LUNES Y MIERCOLES DE 6 AM -- 6 PM",
+					"MARTES JUEVES VIERNES 15 DIAS  6 AM -- 7 PM",
+					"SABADOS DE 6 AM -- 1 PM"
+				]
+			}
+		]
+	},
+	{
+		"nombre": "CAÑAVERAL",
+		"direccion": "Calle  33 #26-38",
+		"servicios": [
+			{
+				"nombre": "MEDICINA GENERAL",
+				"horarios": ["DE LUNES A VIERNES 6 AM -- 6 PM", "SABADOS DE 6 AM -- 12 PM"]
+			},
+			{
+				"nombre": "LABORATORIO",
+				"horarios": ["DE LUNES A VIERNES DE 6 AM -- 10 AM"]
+			},
+			{
+				"nombre": "ENTREGA DE RESULTADOS",
+				"horarios": ["DE LUNES A VIERNES DE 10 AM -- 6 PM", "SABADOS DE 9 AM -- 12 PM"]
+			}
+		]
+	},
+	{
+		"nombre": "GIRON POBLADO",
+		"direccion": "Calle 41  # 23-81",
+		"servicios": [
+			{
+				"nombre": "LABORATORIO",
+				"horarios": ["LUNES A VIERNES DE 6 AM -- 9 AM", "SABADOS DE 6 AM -- 8:30 PM"]
+			},
+			{
+				"nombre": "MEDICINA GENERAL",
+				"horarios": ["LUNES A VIERNES DE 6 AM -- 8 AM", "SABADOS DE 6 AM -- 1PM"]
+			}
+		]
+	},
+	{
+		"nombre": "GIRON CASCO ANTIGUO",
+		"direccion": "Calle 33 # 26-29",
+		"servicios": [
+			{
+				"nombre": "SOLO ORTODONCIAS",
+				"horarios": ["DE LUNES A VIERNES 7 AM -- 7 PM", "SABADOS DE 6 AM -- 1 PM"]
+			}
+		]
+	},
+	{
+		"nombre": "BUCARICA",
+		"direccion": "AV Bucarica #20 Peatonal 46",
+		"servicios": [
+			{
+				"nombre": "ODONTOLOGIA",
+				"horarios": ["DE LUNES A VIERNES 6 AM -- 8 PM", "SABADOS 6 AM -- 1 PM"]
+			},
+			{
+				"nombre": "LABORATORIO",
+				"horarios": ["SABADOS 6 AM -- 10 PM"]
+			}
+		]
+	},
+	{
+		"nombre": "CEC",
+		"direccion": "Calle 50 # 28-25",
+		"servicios": [
+			{
+				"nombre": "CARDIOLOGIA",
+				"horarios": ["DE LUNES A VIERNES DE 6:30 AM -- 8 PM", "SABADOS DE 7:30 AM -- 1 PM"]
+			},
+			{
+				"nombre": "ENTREGA DE RESULTADOS",
+				"horarios": ["DE LUNES A VIERNES 10 AM -- 4 PM", "SABADOS DE 10 AM -- 1 PM"]
+			}
+		]
+	},
+	{
+		"nombre": "BARRANCABERMEJA",
+		"direccion": "Calle 45 # 23A-78",
+		"servicios": [
+			{
+				"nombre": "IMAGENOLOGIA",
+				"horarios": ["DE LUNES A VIERNES 7 AM -- 2 PM"]
+			},
+			{
+				"nombre": "LABORATORIO",
+				"horarios": ["MIERCOLES Y VIERNES DE 7 AM -- 8 AM"]
+			},
+			{
+				"nombre": "ENTREGA DE RESULTADOS",
+				"horarios": ["DE LUNES A VIERNES 8 AM -- 1 AM"]
+			}
+		]
+	},
+	{
+		"nombre": "CLINICA CHICAMOCHA",
+		"direccion": "Calle 40 # 37A-22 FRENTE A LA CLINICA METROPOLITANA",
+		"servicios": [
+			{
+				"nombre": "LABORATORIO",
+				"horarios": ["LAS 24 HORAS DEL DIA LOS 7 DIAS DE LA SEMANA"]
+			}
+		]
+	}
+]

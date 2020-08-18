@@ -1,7 +1,7 @@
 <template>
-  <div class="box-user">
+  <div class="chatbot-box-user">
     <div class="container">
-      <p class="text-user text-right elevation-4">{{ text }}</p>
+      <p class="chatbot-text-user text-right elevation-4">{{ text }}</p>
     </div>
     <v-img :src="imageUser" class="rounded-circle" height="60px" width="60px" />
   </div>
@@ -20,12 +20,12 @@ export default {
 </script>
 
 <style>
-.box-user {
+.chatbot-box-user {
   display: flex;
   margin-left: auto;
 }
 
-.text-user {
+.chatbot-text-user {
   padding: 10px 20px 10px 20px;
   background-color: rgb(67, 98, 236);
   border-top-left-radius: 40px;

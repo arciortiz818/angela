@@ -5,17 +5,9 @@
         <v-btn
           class="chatbot-btn-opcion"
           color="primary"
-          @click="sendMessageUser('ir_a_salir')"
+          @click="sendMessageReset()"
           small
-        >Salir</v-btn>
-      </v-col>
-      <v-col>
-        <v-btn
-          class="chatbot-btn-opcion"
-          color="primary"
-          @click="sendMessageUser('ir_a_opciones_principales')"
-          small
-        >Opciones Principales</v-btn>
+        >Volver a empezar</v-btn>
       </v-col>
     </v-row>
   </v-container>
@@ -34,5 +26,6 @@ export default {
 <style>
 .chatbot-btn-opcion {
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 </style>

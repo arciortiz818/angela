@@ -1,8 +1,8 @@
 <template>
-  <div class="box-agent">
+  <div class="chatbot-box-agent">
     <v-img :src="imageAgent" class="rounded-circle" height="60px" width="60px" />
     <div class="container">
-      <p class="text-agent elevation-4">{{ text }}</p>
+      <p class="chatbot-text-agent elevation-4">{{ text }}</p>
     </div>
   </div>
 </template>
@@ -20,11 +20,11 @@ export default {
 </script>
 
 <style>
-.box-agent {
+.chatbot-box-agent {
   display: flex;
 }
 
-.text-agent {
+.chatbot-text-agent {
   padding: 10px 20px 10px 20px;
   background-color: rgba(0, 0, 0, 0.07);
   border-top-left-radius: 0px;

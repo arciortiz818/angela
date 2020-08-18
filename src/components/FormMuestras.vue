@@ -19,6 +19,7 @@
             v-model="datos.documento"
             label="Documento de Identidad"
             :rules="[(v) => !!v || 'Debe indicar documento de identidad']"
+            type="number"
           ></v-text-field>
           <v-text-field
             dense
@@ -26,6 +27,7 @@
             v-model="datos.telefono"
             label="Teléfono de Contacto"
             :rules="[(v) => !!v || 'Debe indicar un teléfono de contacto']"
+            type="number"
           ></v-text-field>
           <v-text-field
             dense
@@ -48,7 +50,7 @@
             label="Exámen(es) a realizar"
             :rules="[(v) => !!v || 'Debe indicar los exámenes a realizar']"
           ></v-text-field>
-          <v-btn color="primary" @click="solicitarTomaMuestras()">Solicitar</v-btn>
+          <v-btn color="primary" @click="solicitarTomaMuestras()" small>Solicitar</v-btn>
         </v-form>
       </v-card-text>
     </v-card>
@@ -73,7 +75,7 @@ export default {
     };
   },
   computed: {
-    ...mapState(["imageAgent", "emailTo"]),
+    ...mapState(["imageAgent", "emailToMuestras"]),
   },
   methods: {
     ...mapActions(["sendMessageUser", "sendEmail"]),
@@ -115,9 +117,9 @@ export default {
         </div>
       `;
       this.sendEmail({
-        to: this.emailTo,
+        to: this.emailToMuestras,
         message: datosEmail,
-        subject: "Solicitud Toma de Muestras a Domicilio",
+        subject: "Solicitud Toma de Muestras a Domicilio - Angela",
       });
     },
   },
